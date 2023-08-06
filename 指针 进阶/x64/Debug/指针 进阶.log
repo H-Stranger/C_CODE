@@ -1,2 +1,3 @@
-﻿  test6.c
+﻿  test8.c
+D:\Notecode\C\指针 进阶\test8.c(22): warning C4716: “bubble_sort”: 必须返回一个值
   指针 进阶.vcxproj -> D:\Notecode\C\指针 进阶\x64\Debug\指针 进阶.exe

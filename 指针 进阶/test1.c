@@ -43,3 +43,29 @@
 //	}
 //	return 0;
 //}
+
+//void test(int arr[])
+//{
+//	int sz = sizeof(arr) / sizeof(arr[0]);//此处arr是首元素地址
+//	printf("%d\n", sz);
+//}
+//
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	printf("%d\n", sizeof(arr) / sizeof(arr[0]));//这里的arr是数组地址
+//	test(arr);
+//
+//	return 0;
+//
+
+//int main()
+//{
+//	char* p = "abcdef";
+//	printf("%c\n", *p);
+//	printf("%s\n", p);
+//	
+//	char arr[] = "hello world";
+//	printf("%s\n", arr);
+//	return 0;
+//}
