@@ -1,8 +1,4 @@
 ﻿  test9.c
-D:\Notecode\C\指针 进阶\test9.c(23,34): warning C4311: “类型强制转换”: 从“test *”到“unsigned long”的指针截断
-D:\Notecode\C\指针 进阶\test9.c(23,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“unsigned long”
-D:\Notecode\C\指针 进阶\test9.c(23,9): warning C4313: "printf": 格式字符串中的 "%p" 与类型为 "unsigned long" 的参数 1 冲突
-D:\Notecode\C\指针 进阶\test9.c(24,34): warning C4311: “类型强制转换”: 从“test *”到“unsigned long”的指针截断
-D:\Notecode\C\指针 进阶\test9.c(24,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“unsigned long”
-D:\Notecode\C\指针 进阶\test9.c(24,9): warning C4313: "printf": 格式字符串中的 "%p" 与类型为 "unsigned long" 的参数 1 冲突
+D:\Notecode\C\指针 进阶\test9.c(10,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Notecode\C\指针 进阶\test9.c(10,9): message : 请考虑在格式字符串中使用“%zd”
   指针 进阶.vcxproj -> D:\Notecode\C\指针 进阶\x64\Debug\指针 进阶.exe
