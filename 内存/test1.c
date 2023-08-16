@@ -33,10 +33,11 @@
 //	return 0;
 // }
 
-int main()
-{
-	unsigned char a = -7;
-	printf("%d\n", a);
-
-	return 0;
-}
+//int main()
+//{
+//	unsigned char a = -7;
+//  printf("%c\n", a);
+//	printf("%d\n", a) ;
+//
+//	return 0;
+//}
