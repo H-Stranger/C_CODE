@@ -2,33 +2,35 @@
 #include<stdio.h>
 #include<assert.h>
 
+//my_strcpy函数自拟
+ 
 //char* my_strcpy(char* dest, const char* src)
 //{
-//	assert(dest != NULL);
-//	assert(src != NULL);
-//	//assert(dest && src);
+//	assert(dest != NULL && src != NULL);
+//	//assert(dest && src)
 //
-//	char* ret = dest;
-//	//拷贝src指向的字符串到dest指向的空间，包含'\0'
+//	char* ret = dest;//保留首元素地址，以便返回拷贝数组
+//	//'\0'也被拷贝
 //	while (*dest++ = *src++)
 //	{
 //		;
 //	}
 //
-//	//返回目的空间起始地址
 //	return ret;
 //}
+//
 //int main()
 //{
-//	//char arr1[] = "abcdefghi";
-//
-//	char* arr1 = "abcdefghi";
-//	char arr2[] = "bit";
-//
-//	//arr1中存储的是常量字符串
+//	char arr1[] = "hello world !";
+//	char arr2[] = "bye";
+//	char* arr3 = "hello world";//常量字符串无法其他字符拷贝至arr3
 //
 //	my_strcpy(arr1, arr2);
+//	printf("%s\n", arr1);
+//	my_strcpy(arr1, arr3);
 //	printf("%s\n", arr1);
 //
 //	return 0;
 //}
+
+
