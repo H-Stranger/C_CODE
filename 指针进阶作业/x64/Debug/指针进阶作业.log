@@ -1,4 +1,0 @@
-﻿  test2.c
-D:\Notecode\C\指针进阶作业\test2.c(8,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Notecode\C\指针进阶作业\test2.c(25,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  指针进阶作业.vcxproj -> D:\Notecode\C\指针进阶作业\x64\Debug\指针进阶作业.exe
